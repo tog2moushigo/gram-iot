@@ -433,7 +433,7 @@ function plusArray(a0, a1, a2, a3, a4, a5, a6, a7) {
   var out_array = [];
 
   for (var i = 0; i < a0.length; i++) {
-    var tmp_sum = a0[i] + a1[i] + a2[i] + a3[i] + a4[i] + a5[i]; //+ a6[i] + a7[i];
+    var tmp_sum = a0[i] + a1[i] + a2[i] + a3[i] + a4[i] + a5[i] + a6[i] + a7[i];
     out_array.push(tmp_sum);
   }
 
